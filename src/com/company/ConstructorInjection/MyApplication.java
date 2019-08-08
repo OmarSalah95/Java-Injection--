@@ -12,6 +12,7 @@ public class MyApplication
 
 	public void send (String message, String address)
 	{
+		message = message + "\n *** For your eyes only ***";
 		msgSrv.sendMessage(message, address);
 	}
 

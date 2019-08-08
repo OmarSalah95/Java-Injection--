@@ -4,6 +4,6 @@ public class MessageService
 {
 	public void sendMessage(String msg, String address)
 	{
-		System.out.println("For : " + address + " : " + msg);
+		System.out.println(msg + " For : " + address);
 	}
 }
